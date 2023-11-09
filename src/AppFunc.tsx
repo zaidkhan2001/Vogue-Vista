@@ -8,7 +8,7 @@ interface AppFuncProps {
 
 function AppFunc(obj:AppFuncProps) {
   const [name, setName] = useState("");
-  const [age, setAge] = useState(16);
+  const [age, setAge] = useState(1000);
   const [isMale, setIsMale] = useState(true);
  
   return (
