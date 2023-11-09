@@ -94,6 +94,14 @@ console.log(tempad)
         <p>{count}</p>
         <p>{state.num}</p>
       </div>
+      <div className="container mt-5">
+      <h1 className="display-4">My Bootstrap-styled Component</h1>
+      <div className="alert alert-info" role="alert">
+        This is a Bootstrap alert component.
+      </div>
+      <button className="btn btn-primary">Primary Button</button>
     </div>
+    </div>
+    
   );
 }

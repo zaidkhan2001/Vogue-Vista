@@ -1,13 +1,16 @@
 import React from 'react';
-
 const Login = () => {
   return (
-    <>
-    <form action=''>
-    <div className="container mt-5" style={{}}>
+    <div style={{backgroundColor:'black',height:'100vh'}}>
+    <form action='' style={{}}>
+    <div className="row justify-content-center">
+    <p style={{color:'white', fontfamily: "Times New Roman", fontSize:30,marginTop:30}}>Vogue Vista</p>
+    </div>
+    <div className="container mt-5">
       <div className="row justify-content-center">
         <div className="col-md-6">
-          <div className="card">
+          <div className="card" style={{borderRadius:40, boxShadow:20,  boxShadow: '0 0 20px 5px rgba(255, 255, 255, 0.4), 0 0 50px 15px rgba(255, 255, 255, 0.2)',
+    animation: 'glow-animation 1.5s infinite alternate' }}>
             <div className="card-body">
               <h2 className="card-title text-center">Login</h2>
               <form>
@@ -20,6 +23,7 @@ const Login = () => {
                     placeholder="Enter your username"
                     autoComplete='off'
                     required
+                    style={{borderRadius:40}}
                   />
                 </div>
                 <div className="form-group">
@@ -30,14 +34,15 @@ const Login = () => {
                     id="password"
                     minLength={8}
                     required
-                    placeholder="Enter your password (Min 8 Length)"
+                    placeholder="Enter your password"
+                    style={{borderRadius:40}}
                   />
                 </div>
                 <div className="row justify-content-center">
                 <p style={{fontWeight:'600'}}>Don't have an account?</p>&nbsp;
                 <a href="https://google.com" style={{color:'blue'}}>SignUp</a>
                 </div>
-                <button type="submit" className="btn btn-primary btn-block">
+                <button type="submit" className="btn btn-primary btn-block" style={{backgroundColor:'black',borderRadius:40}}>
                   Login
                 </button>
               </form>
@@ -47,7 +52,7 @@ const Login = () => {
       </div>
     </div>
     </form>
-    </>
+    </div>
   );
 };
 
