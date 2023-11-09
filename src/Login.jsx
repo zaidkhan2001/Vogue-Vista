@@ -5,7 +5,7 @@ const Login = () => {
     <form action='' style={{}}>
     <div className="row justify-content-center">
     <p style={{color:'white', fontfamily: "Times New Roman", fontSize:30,marginTop:30}}>Vogue Vista</p>
-    </div>
+    </div> 
     <div className="container mt-5">
       <div className="row justify-content-center">
         <div className="col-md-6">
