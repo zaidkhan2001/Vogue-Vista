@@ -7,6 +7,7 @@ const CarouselComponent = () => {
     margin: 'auto', // Center the image horizontally
   };
 
+  
   return (
     <Carousel interval={2000}>
       {/* Adjust the interval value (in milliseconds) as needed */}
