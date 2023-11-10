@@ -4,10 +4,10 @@ import { Container, Row, Col } from 'react-bootstrap';
 const About = () => {
   return (
     <Container className="mt-5 text-center">
-    <Row>
-    <h2 style={{ backgroundColor: 'black', color: 'white', padding: '15px' }}>
+            <h2 style={{ backgroundColor: 'black', color: 'white', padding: '15px' }}>
             Our Mission
         </h2>
+    <Row>
 
         <Col md={6}>
         <img
@@ -41,21 +41,21 @@ const About = () => {
         </h2>
         <div class="card-group">
         <div class="card">
-            <img class="card-img-top" src="..." alt="Card image cap"/>
+            <img class="card-img-top" src="./Images/Zaid.JPG" alt="Card image cap" style={{height:500}}/>
             <div class="card-body">
             <h5 class="card-title">Zaid Khan</h5>
-            <p class="card-text">Zaid, our dynamic CEO, leads Vogue Vista with a visionary approach, driving innovation and global growth. His commitment to excellence sets the stage for redefining fashion, ensuring unparalleled quality and individual expression.</p>
+            <p class="card-text">Zaid, our dynamic COO, leads Vogue Vista with a visionary approach, driving innovation and global growth. His commitment to excellence sets the stage for redefining fashion, ensuring unparalleled quality and individual expression.</p>
             </div>
         </div>
         <div class="card">
-            <img class="card-img-top" src="..." alt="Card image cap"/>
+            <img class="card-img-top" src="./Images/Usama.JPG" alt="Card image cap" style={{height:500}}/>
             <div class="card-body">
-            <h5 class="card-title">Muhamamd Usama</h5>
-            <p class="card-text">As COO, Usama oversees Vogue Vista's operations with precision, ensuring seamless logistics and a commitment to quality. His leadership enhances the brand's efficiency, delivering an exceptional experience to our customers.</p>
+            <h5 class="card-title">Muhammad Usama</h5>
+            <p class="card-text">As CEO, Usama oversees Vogue Vista's operations with precision, ensuring seamless logistics and a commitment to quality. His leadership enhances the brand's efficiency, delivering an exceptional experience to our customers.</p>
             </div>
         </div>
         <div class="card">
-            <img class="card-img-top" src="..." alt="Card image cap"/>
+            <img class="card-img-top" src="./Images/Usman.JPG"  style={{height:500}} alt="Card image cap"/>
             <div class="card-body">
             <h5 class="card-title">Muhammad Usman Azeem</h5>
             <p class="card-text">Usman, our dynamic CMO, elevates Vogue Vista's brand with captivating marketing strategies. He ensures a vibrant market presence and fosters compelling connections with our customers.</p>

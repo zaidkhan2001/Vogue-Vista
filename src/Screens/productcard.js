@@ -43,7 +43,7 @@ const BestsellersSection = () => {
   const products = [
     // Provide an array of product data
     {
-      imageUrl: 'URL_TO_YOUR_IMAGE_1',
+      imageUrl: './Images/Cover 1.png',
       badges: [{ text: 'New', color: 'bg-primary' }],
       productName: 'Product 1',
       category: 'Category 1',
@@ -51,7 +51,7 @@ const BestsellersSection = () => {
       discountedPrice: null,
     },
     {
-      imageUrl: 'URL_TO_YOUR_IMAGE_1',
+      imageUrl: './Images/Cover 2.png',
       badges: [{ text: 'New', color: 'bg-primary' }],
       productName: 'Product 1',
       category: 'Category 1',
@@ -59,7 +59,7 @@ const BestsellersSection = () => {
       discountedPrice: null,
     },
     {
-      imageUrl: 'URL_TO_YOUR_IMAGE_1',
+      imageUrl: './Images/Cover 3.png',
       badges: [{ text: 'New', color: 'bg-primary' }],
       productName: 'Product 1',
       category: 'Category 1',
