@@ -16,7 +16,7 @@ const Login = () => {
               <h2 className="card-title text-center">Login</h2>
               <form>
                 <div className="form-group">
-                  <label htmlFor="username" style={{fontWeight:'600'}}>Username</label>
+                  <label htmlFor="username" style={{fontWeight:'600'}}>Username:</label>
                   <input
                     type="text"
                     className="form-control"
