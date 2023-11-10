@@ -1,15 +1,16 @@
 import React from 'react';
 const Login = () => {
   return (
-    <div style={{backgroundColor:'black',height:'100vh'}}>
+    <div style={{backgroundColor:'white',height:'100vh'}}>
     <form action='' style={{}}>
     <div className="row justify-content-center">
-    <p style={{color:'white', fontfamily: "Times New Roman", fontSize:30,marginTop:30}}>Vogue Vista</p>
+  
+    <img src={require('./logo.png')} style={{height:250,width:250}}></img>
     </div> 
     <div className="container mt-5">
       <div className="row justify-content-center">
         <div className="col-md-6">
-          <div className="card" style={{borderRadius:40, boxShadow:20,  boxShadow: '0 0 20px 5px rgba(255, 255, 255, 0.4), 0 0 50px 15px rgba(255, 255, 255, 0.2)',
+          <div className="card" style={{borderRadius:40,marginTop:-50, boxShadow:20,  boxShadow: '0 0 20px 5px rgba(0, 0, 0, 0.4), 0 0 50px 15px rgba(0, 0, 0, 0.2)',
     animation: 'glow-animation 1.5s infinite alternate' }}>
             <div className="card-body">
               <h2 className="card-title text-center">Login</h2>
