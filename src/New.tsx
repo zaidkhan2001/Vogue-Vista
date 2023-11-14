@@ -2,7 +2,7 @@ import React from "react"
 import AppFunc from "./AppFunc.tsx"
 import AppClass from "./AppClass.tsx"
 import Display from "./Display.jsx"
-import Login from "./Login.jsx"
+import Login from "./Screens/Login.jsx"
 import Navbar from './Screens/navbar.js'
 import Slideshow from './Screens/slideshow.js'
 import ProductCard from './Screens/productcard.js'

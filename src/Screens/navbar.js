@@ -1,24 +1,13 @@
 import React from 'react';
-import { BiCart } from 'react-icons/bi';
+import { BiCart, BiUser, BiBell} from 'react-icons/bi';
 
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div className="container-fluid">
-        <h4>Vouge Vista</h4>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+      <div className="container-fluid d-flex justify-content-between align-items-center">
+        <div>
+          <h4>Vouge Vista</h4>
+          <ul className="navbar-nav mb-2 mb-lg-0">
             <li className="nav-item">
               <a className="nav-link ms-5" href="/">
                 Home
@@ -44,12 +33,11 @@ export default function Navbar() {
                 About Us
               </a>
             </li>
-            <li className="nav-item">
-            <a className="nav-link ms-5" href="/blank">
-                <BiCart style={{ fontSize: '30px', fontWeight: 'bold' }} />
-            </a>
-            </li>
           </ul>
+        </div>
+
+        <div className="d-flex align-items-center">
+          
           <form className="d-flex">
             <input
               className="form-control me-2"
@@ -61,6 +49,27 @@ export default function Navbar() {
               Search
             </button>
           </form>
+          <ul className="navbar-nav me-4 mb-2 mb-lg-0">
+            <li className="nav-item">
+              <a className="nav-link" href="/blank">
+                <BiCart style={{ fontSize: '30px', fontWeight: 'bold' }} />
+              </a>
+            </li>
+          </ul>
+          <ul className="navbar-nav me-2 mb-2 mb-lg-0">
+            <li className="nav-item">
+              <a className="nav-link" href="/blank">
+                <BiBell style={{ fontSize: '30px', fontWeight: 'bold' }} />
+              </a>
+            </li>
+          </ul>
+          <ul className="navbar-nav me-2 mb-2 mb-lg-0">
+            <li className="nav-item">
+              <a className="nav-link" href="/blank">
+                <BiUser style={{ fontSize: '30px', fontWeight: 'bold' }} />
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
