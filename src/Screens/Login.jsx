@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Login = () => {
   const navigate = useNavigate();
@@ -12,7 +13,7 @@ const Login = () => {
   return (
     <div style={{ backgroundColor: 'black', height: '100vh' }}>
       <div className="row justify-content-center">
-        <img src="/Images/blacklogo.png" style={{ height: 250, width: 250 }} alt="Logo" />
+        <img src="/Images/black.png" style={{ height: 250, width: 250 }} alt="Logo" />
       </div>
       <div className="container mt-5">
         <div className="row justify-content-center">
@@ -59,9 +60,9 @@ const Login = () => {
                   </div>
                   <div className="row justify-content-center">
                     <p style={{ fontWeight: '600' }}>Don't have an account?</p>&nbsp;
-                    <a href="https://google.com" style={{ color: 'blue' }}>
+                    <Link to="/signup" style={{ color: 'blue' }}>
                       SignUp
-                    </a>
+                    </Link>
                   </div>
                   <button
                     type="submit"

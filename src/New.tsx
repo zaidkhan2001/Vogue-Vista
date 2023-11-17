@@ -1,10 +1,10 @@
 import React from "react"
+import { Route, Routes } from "react-router-dom"
+import Login from "./Screens/Login.jsx"
 import About from './Screens/about.js'
-import Navbar from './Screens/navbar.js'
 import ProductCard from './Screens/productcard.js'
 import Slideshow from './Screens/slideshow.js'
-import Login from "./Screens/Login.jsx"
-import { Route,Routes } from "react-router-dom"
+import Signup from "./Screens/Signup.js"
 
 function New()
 {
@@ -15,6 +15,7 @@ return(
 <Route path="/home" element={<Slideshow/>}/>
 <Route path="/products" element={<ProductCard />}/>
 <Route path="/about" element={<About />}/>
+<Route path="/signup" element={<Signup/>}/>
 </Routes>
 </>
 );
