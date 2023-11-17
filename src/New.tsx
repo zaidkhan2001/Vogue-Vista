@@ -1,13 +1,10 @@
 import React from "react"
-import AppFunc from "./AppFunc.tsx"
-import AppClass from "./AppClass.tsx"
-import Display from "./Display.jsx"
+import { Route, Routes } from "react-router-dom"
 import Login from "./Screens/Login.jsx"
 import About from './Screens/about.js'
-import Navbar from './Screens/navbar.js'
 import ProductCard from './Screens/productcard.js'
 import Slideshow from './Screens/slideshow.js'
-import { Route,Routes } from "react-router-dom"
+import Signup from "./Screens/Signup.js"
 
 function New()
 {
@@ -18,6 +15,7 @@ return(
 <Route path="/home" element={<Slideshow/>}/>
 <Route path="/products" element={<ProductCard />}/>
 <Route path="/about" element={<About />}/>
+<Route path="/signup" element={<Signup/>}/>
 </Routes>
 </>
 );
