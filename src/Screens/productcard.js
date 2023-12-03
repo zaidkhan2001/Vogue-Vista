@@ -88,8 +88,8 @@ const ProductCard = ({ imageUrl, badges, productName, category, originalPrice, d
 };
 
 const BestsellersSection = () => {
-  const [totalQuantity, setTotalQuantity] = useState(0);
 
+  const [totalQuantity, setTotalQuantity] = useState(0);
   const handleUpdateTotalQuantity = (quantity) => {
     setTotalQuantity((prevTotal) => prevTotal + quantity);
   };
@@ -124,7 +124,7 @@ const BestsellersSection = () => {
 
   return (
     <>
-      <Navbar />
+    <Navbar totalQuantity={totalQuantity}/>
       <section style={{ backgroundColor: '#eee' }}>
         <div className="text-center container py-5">
           <h4 className="mt-4 mb-5"><strong>Bestsellers</strong></h4>
@@ -140,6 +140,7 @@ const BestsellersSection = () => {
           </div>
         </div>
       </section>
+     
     </>
   );
 };

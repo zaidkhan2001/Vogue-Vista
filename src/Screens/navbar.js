@@ -3,8 +3,7 @@ import { BiCart } from 'react-icons/bi';
 import { Link } from "react-router-dom";
 import Slideshow from './slideshow.js';
 
-const Navbar = () => {
-
+const Navbar = ({ totalQuantity }) => {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -51,6 +50,11 @@ const Navbar = () => {
               <li className="nav-item">
                 <Link to="/products" className="nav-link ms-5">
                   <BiCart style={{ fontSize: '30px', fontWeight: 'bold' }} />
+                  {totalQuantity > 0 && (
+                    <span className="badge bg-danger rounded-circle ms-1">
+                      {totalQuantity}
+                    </span>
+                  )}
                 </Link>
               </li>
             </ul>
