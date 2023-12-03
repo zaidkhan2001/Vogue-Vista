@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Slideshow from './slideshow.js';
 
 const Navbar = () => {
+
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
